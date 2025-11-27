@@ -205,3 +205,68 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+pgdata/
+postgres-data/
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+.docker/
+
+# FastAPI/Uvicorn
+.uvicorn/
+
+# Alembic
+alembic.ini
+alembic.ini.bak
+
+# Web scraping
+scraped_data/
+*.csv
+*.json
+*.xml
+crawl_logs/
+robots.txt.cache
+
+# NLP/ML models and data
+models/
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+*.onnx
+datasets/
+embeddings/
+word_vectors/
+
+# Configuration files with secrets
+config.ini
+settings.ini
+.secrets
+secrets.json
+
+# Logs
+logs/
+*.log.*
+access.log
+error.log
+scraper.log
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.temp
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Job data
+job_data/
+resume_data/
